@@ -14,7 +14,7 @@
 		5A893FD5241A8AF70088467B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FD4241A8AF70088467B /* Assets.xcassets */; };
 		5A893FD8241A8AF70088467B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FD6241A8AF70088467B /* LaunchScreen.storyboard */; };
 		5A893FE0241A8C400088467B /* PythagController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A893FDF241A8C400088467B /* PythagController.swift */; };
-		5A893FE2241A8C660088467B /* PythagView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FE1241A8C660088467B /* PythagView.storyboard */; };
+		5A893FE2241A8C660088467B /* Pythag.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FE1241A8C660088467B /* Pythag.storyboard */; };
 		5A893FEE241A8CFB0088467B /* sick.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FE3241A8CFA0088467B /* sick.png */; };
 		5A893FEF241A8CFB0088467B /* 1076833-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FE4241A8CFA0088467B /* 1076833-200.png */; };
 		5A893FF0241A8CFB0088467B /* 1024px-White_square_50%_transparency.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FE5241A8CFA0088467B /* 1024px-White_square_50%_transparency.svg.png */; };
@@ -26,6 +26,9 @@
 		5A893FF6241A8CFB0088467B /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FEB241A8CFB0088467B /* images.png */; };
 		5A893FF7241A8CFB0088467B /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FEC241A8CFB0088467B /* images.jpg */; };
 		5A893FF8241A8CFB0088467B /* Hypotenuse_1000.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FED241A8CFB0088467B /* Hypotenuse_1000.gif */; };
+		5A893FFD241A8F1B0088467B /* SquareLabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A893FFC241A8F1B0088467B /* SquareLabController.swift */; };
+		5A893FFF241A90640088467B /* SquareLab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FFE241A90640088467B /* SquareLab.storyboard */; };
+		5A894001241A921C0088467B /* OutputsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A894000241A921C0088467B /* OutputsController.swift */; };
 		EDADCBA2A5ABA9F56F369C12 /* Pods_NewSwiftPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6B23EB83709FA35E69D9E0 /* Pods_NewSwiftPortfolio.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +43,7 @@
 		5A893FD7241A8AF70088467B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A893FD9241A8AF70088467B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A893FDF241A8C400088467B /* PythagController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagController.swift; sourceTree = "<group>"; };
-		5A893FE1241A8C660088467B /* PythagView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PythagView.storyboard; sourceTree = "<group>"; };
+		5A893FE1241A8C660088467B /* Pythag.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythag.storyboard; sourceTree = "<group>"; };
 		5A893FE3241A8CFA0088467B /* sick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sick.png; sourceTree = "<group>"; };
 		5A893FE4241A8CFA0088467B /* 1076833-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1076833-200.png"; sourceTree = "<group>"; };
 		5A893FE5241A8CFA0088467B /* 1024px-White_square_50%_transparency.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1024px-White_square_50%_transparency.svg.png"; sourceTree = "<group>"; };
@@ -52,6 +55,9 @@
 		5A893FEB241A8CFB0088467B /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 		5A893FEC241A8CFB0088467B /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 		5A893FED241A8CFB0088467B /* Hypotenuse_1000.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Hypotenuse_1000.gif; sourceTree = "<group>"; };
+		5A893FFC241A8F1B0088467B /* SquareLabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareLabController.swift; sourceTree = "<group>"; };
+		5A893FFE241A90640088467B /* SquareLab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SquareLab.storyboard; sourceTree = "<group>"; };
+		5A894000241A921C0088467B /* OutputsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputsController.swift; sourceTree = "<group>"; };
 		94A91077A1D2F9AF703B6C85 /* Pods-NewSwiftPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewSwiftPortfolio.debug.xcconfig"; path = "Target Support Files/Pods-NewSwiftPortfolio/Pods-NewSwiftPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
 		959C8C9071B1E9F69890CCB3 /* Pods-NewSwiftPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewSwiftPortfolio.release.xcconfig"; path = "Target Support Files/Pods-NewSwiftPortfolio/Pods-NewSwiftPortfolio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,17 +115,44 @@
 		5A893FCA241A8AF60088467B /* NewSwiftPortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				5A893FCB241A8AF60088467B /* AppDelegate.swift */,
-				5A893FCD241A8AF60088467B /* SceneDelegate.swift */,
-				5A893FCF241A8AF60088467B /* ViewController.swift */,
-				5A893FDF241A8C400088467B /* PythagController.swift */,
-				5A893FD1241A8AF60088467B /* Main.storyboard */,
+				5A893FF9241A8EBD0088467B /* View Controllers */,
+				5A893FFA241A8ECE0088467B /* Models */,
+				5A893FFB241A8ED30088467B /* Views */,
 				5A893FD4241A8AF70088467B /* Assets.xcassets */,
-				5A893FD6241A8AF70088467B /* LaunchScreen.storyboard */,
-				5A893FE1241A8C660088467B /* PythagView.storyboard */,
 				5A893FD9241A8AF70088467B /* Info.plist */,
 			);
 			path = NewSwiftPortfolio;
+			sourceTree = "<group>";
+		};
+		5A893FF9241A8EBD0088467B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A893FCF241A8AF60088467B /* ViewController.swift */,
+				5A893FDF241A8C400088467B /* PythagController.swift */,
+				5A893FFC241A8F1B0088467B /* SquareLabController.swift */,
+				5A894000241A921C0088467B /* OutputsController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5A893FFA241A8ECE0088467B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A893FCB241A8AF60088467B /* AppDelegate.swift */,
+				5A893FCD241A8AF60088467B /* SceneDelegate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A893FFB241A8ED30088467B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A893FD6241A8AF70088467B /* LaunchScreen.storyboard */,
+				5A893FD1241A8AF60088467B /* Main.storyboard */,
+				5A893FE1241A8C660088467B /* Pythag.storyboard */,
+				5A893FFE241A90640088467B /* SquareLab.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		EEE67A013912399809A18E4D /* Frameworks */ = {
@@ -195,12 +228,13 @@
 				5A893FF8241A8CFB0088467B /* Hypotenuse_1000.gif in Resources */,
 				5A893FF5241A8CFB0088467B /* Unknown.png in Resources */,
 				5A893FF6241A8CFB0088467B /* images.png in Resources */,
-				5A893FE2241A8C660088467B /* PythagView.storyboard in Resources */,
+				5A893FE2241A8C660088467B /* Pythag.storyboard in Resources */,
 				5A893FEE241A8CFB0088467B /* sick.png in Resources */,
 				5A893FF3241A8CFB0088467B /* ball_7.png in Resources */,
 				5A893FD8241A8AF70088467B /* LaunchScreen.storyboard in Resources */,
 				5A893FF4241A8CFB0088467B /* black-circle-png47c-4a62-b41d-149d42a05759.png in Resources */,
 				5A893FEF241A8CFB0088467B /* 1076833-200.png in Resources */,
+				5A893FFF241A90640088467B /* SquareLab.storyboard in Resources */,
 				5A893FF1241A8CFB0088467B /* 665398_box_512x512.png in Resources */,
 				5A893FF7241A8CFB0088467B /* images.jpg in Resources */,
 				5A893FD5241A8AF70088467B /* Assets.xcassets in Resources */,
@@ -257,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A893FFD241A8F1B0088467B /* SquareLabController.swift in Sources */,
+				5A894001241A921C0088467B /* OutputsController.swift in Sources */,
 				5A893FE0241A8C400088467B /* PythagController.swift in Sources */,
 				5A893FD0241A8AF60088467B /* ViewController.swift in Sources */,
 				5A893FCC241A8AF60088467B /* AppDelegate.swift in Sources */,

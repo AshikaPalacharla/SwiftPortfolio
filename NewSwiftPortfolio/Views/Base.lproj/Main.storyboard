@@ -66,6 +66,9 @@
                                 <state key="normal" title="Square Lab">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="6Tm-Qo-auE" kind="show" id="hnI-hx-619"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlE-QF-oeZ">
                                 <rect key="frame" x="91" y="479" width="193" height="48"/>
@@ -115,12 +118,22 @@
         <!--pythag-->
         <scene sceneID="tuP-H4-COY">
             <objects>
-                <viewControllerPlaceholder storyboardName="PythagView" referencedIdentifier="pythag" id="Sh5-8c-pZB" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Pythag" referencedIdentifier="pythag" id="Sh5-8c-pZB" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="zQQ-m2-X3F"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3b5-C3-a9d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="636" y="38"/>
+        </scene>
+        <!--squares-->
+        <scene sceneID="XbS-yA-g8K">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SquareLab" referencedIdentifier="squares" id="6Tm-Qo-auE" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Vrr-ut-r0i"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UwF-0h-Mrf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="136"/>
         </scene>
     </scenes>
     <resources>
