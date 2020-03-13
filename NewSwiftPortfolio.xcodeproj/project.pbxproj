@@ -29,6 +29,7 @@
 		5A893FFD241A8F1B0088467B /* SquareLabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A893FFC241A8F1B0088467B /* SquareLabController.swift */; };
 		5A893FFF241A90640088467B /* SquareLab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FFE241A90640088467B /* SquareLab.storyboard */; };
 		5A894001241A921C0088467B /* OutputsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A894000241A921C0088467B /* OutputsController.swift */; };
+		5A894003241A94620088467B /* TimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A894002241A94620088467B /* TimeController.swift */; };
 		EDADCBA2A5ABA9F56F369C12 /* Pods_NewSwiftPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6B23EB83709FA35E69D9E0 /* Pods_NewSwiftPortfolio.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		5A893FFC241A8F1B0088467B /* SquareLabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareLabController.swift; sourceTree = "<group>"; };
 		5A893FFE241A90640088467B /* SquareLab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SquareLab.storyboard; sourceTree = "<group>"; };
 		5A894000241A921C0088467B /* OutputsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputsController.swift; sourceTree = "<group>"; };
+		5A894002241A94620088467B /* TimeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeController.swift; sourceTree = "<group>"; };
 		94A91077A1D2F9AF703B6C85 /* Pods-NewSwiftPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewSwiftPortfolio.debug.xcconfig"; path = "Target Support Files/Pods-NewSwiftPortfolio/Pods-NewSwiftPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
 		959C8C9071B1E9F69890CCB3 /* Pods-NewSwiftPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewSwiftPortfolio.release.xcconfig"; path = "Target Support Files/Pods-NewSwiftPortfolio/Pods-NewSwiftPortfolio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +133,7 @@
 				5A893FDF241A8C400088467B /* PythagController.swift */,
 				5A893FFC241A8F1B0088467B /* SquareLabController.swift */,
 				5A894000241A921C0088467B /* OutputsController.swift */,
+				5A894002241A94620088467B /* TimeController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			files = (
 				5A893FFD241A8F1B0088467B /* SquareLabController.swift in Sources */,
 				5A894001241A921C0088467B /* OutputsController.swift in Sources */,
+				5A894003241A94620088467B /* TimeController.swift in Sources */,
 				5A893FE0241A8C400088467B /* PythagController.swift in Sources */,
 				5A893FD0241A8AF60088467B /* ViewController.swift in Sources */,
 				5A893FCC241A8AF60088467B /* AppDelegate.swift in Sources */,

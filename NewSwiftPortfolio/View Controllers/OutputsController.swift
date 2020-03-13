@@ -20,5 +20,4 @@ class OutputsController: UIViewController {
         super.viewDidLoad()
 
     }
-
 }
