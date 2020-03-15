@@ -20,13 +20,11 @@ class SquareLabController: UIViewController {
         super.viewDidLoad()
     
         //Initialize Outlets
-        width.text = "0.0"
-        length.text = "0.0"
-        area.text = "0.0"
-        perimeter.text = "0.0"
+        
     }
    @IBAction func calculatearea(sender: UIButton) {
         // let is for values that are not modified
+    let square = (width:0.0, length:0.0, area:0.0, perimeter:0.0)
         let w = Float(width.text!) // Input value, !(Bang) avoids errors
         let l = Float(length.text!)
 

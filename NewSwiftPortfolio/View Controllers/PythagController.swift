@@ -19,15 +19,13 @@ class PythagController: UIViewController {
         super.viewDidLoad()
         
         // Initialize Outlets
-        side1.text = "0.0"
-        side2.text = "0.0"
-        side3.text = "0.0"
     }
 
     // IBAction created with Drag from Storyboard
    @IBAction func calculate(sender: UIButton) {
         // let is for values that are not modified
-        let s1 = Float(side1.text!) // Input value, !(Bang) avoids errors
+    let triangle = (side1:0.0, side2:0.0, side3:0.0)
+    let s1 = Float(side1.text!) // Input value, !(Bang) avoids errors
         let s2 = Float(side2.text!)
 
         // Pythagorean Calculation
