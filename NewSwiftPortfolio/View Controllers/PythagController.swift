@@ -23,17 +23,15 @@ class PythagController: UIViewController {
 
     // IBAction created with Drag from Storyboard
    @IBAction func calculate(sender: UIButton) {
-        // let is for values that are not modified
-    let triangle = (side1:0.0, side2:0.0, side3:0.0)
-    let s1 = Float(side1.text!) // Input value, !(Bang) avoids errors
-        let s2 = Float(side2.text!)
-
-        // Pythagorean Calculation
-        let s3 = sqrt( (s1! * s1!) + (s2! * s2!) )
-
-        // Set calculation to screen
-        side3.text = String(s3)
-        print("Pyth  \(side3.text!)")
+     var triangle = (A:Double(side1.text!), B:Double(side2.text!), C:Double(0.0))
+    
+     triangle.C = sqrt( (triangle.A! * triangle.A!) + (triangle.B! * triangle.B!) )
+    
+     // Set calculation to screen
+    
+     side3.text = String(triangle.C)
+    
+     print("Pyth \(side3.text!)")
     
     }
 }

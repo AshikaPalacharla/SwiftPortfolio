@@ -24,29 +24,31 @@ class SquareLabController: UIViewController {
     }
    @IBAction func calculatearea(sender: UIButton) {
         // let is for values that are not modified
-    let square = (width:0.0, length:0.0, area:0.0, perimeter:0.0)
+    var square = (W:Double(width.text!), L:Double(length.text!), A:Double(0.0), P:Double(0.0))
         let w = Float(width.text!) // Input value, !(Bang) avoids errors
         let l = Float(length.text!)
 
         // Pythagorean Calculation
-        let a = (w! * l!)
-
-        // Set calculation to screen
-        area.text = String(a)
-        print("Area  \(area.text!)")
+    square.A = (square.W! * square.L!)
+    
+    area.text = String(square.A)
+    print("Area  \(area.text!)")
     
     }
     
+    
     @IBAction func calculateperimeter(sender: UIButton) {
         // let is for values that are not modified
-        let w = Float(width.text!) // Input value, !(Bang) avoids errors
-        let l = Float(length.text!)
+        
+        
+        var square = (W:Double(width.text!), L:Double(length.text!), A:Double(0.0), P:Double(0.0))
+            let w = Float(width.text!) // Input value, !(Bang) avoids errors
+            let l = Float(length.text!)
 
-        // Pythagorean Calculation
-        let p = (w! * 2) + (l! * 2)
-
-        // Set calculation to screen
-        perimeter.text = String(p)
+            // Pythagorean Calculation
+        square.P = (square.W!*2) + (2 * square.L!)
+        
+        perimeter.text = String(square.P)
         print("Perimeter  \(perimeter.text!)")
     
     }
