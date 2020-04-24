@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A5F27E724504664000B64BC /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F27E624504664000B64BC /* LogInController.swift */; };
+		5A5F27E92450C363000B64BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5F27E82450C363000B64BC /* CoreData.framework */; };
+		5A5F27EC2450C3A3000B64BC /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F27EA2450C3A3000B64BC /* CoreData.xcdatamodeld */; };
+		5A5F27F02452E4B9000B64BC /* LogInController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5F27EF2452E4B9000B64BC /* LogInController.storyboard */; };
 		5A893FCC241A8AF60088467B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A893FCB241A8AF60088467B /* AppDelegate.swift */; };
 		5A893FCE241A8AF60088467B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A893FCD241A8AF60088467B /* SceneDelegate.swift */; };
 		5A893FD0241A8AF60088467B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A893FCF241A8AF60088467B /* ViewController.swift */; };
@@ -28,12 +32,15 @@
 		5A893FF8241A8CFB0088467B /* Hypotenuse_1000.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FED241A8CFB0088467B /* Hypotenuse_1000.gif */; };
 		5A893FFD241A8F1B0088467B /* SquareLabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A893FFC241A8F1B0088467B /* SquareLabController.swift */; };
 		5A893FFF241A90640088467B /* SquareLab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A893FFE241A90640088467B /* SquareLab.storyboard */; };
-		5A894001241A921C0088467B /* OutputsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A894000241A921C0088467B /* OutputsController.swift */; };
-		5A894003241A94620088467B /* TimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A894002241A94620088467B /* TimeController.swift */; };
+		5A8940072422D8A80088467B /* CalcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8940062422D8A80088467B /* CalcController.swift */; };
 		EDADCBA2A5ABA9F56F369C12 /* Pods_NewSwiftPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6B23EB83709FA35E69D9E0 /* Pods_NewSwiftPortfolio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A5F27E624504664000B64BC /* LogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
+		5A5F27E82450C363000B64BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5A5F27EB2450C3A3000B64BC /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		5A5F27EF2452E4B9000B64BC /* LogInController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogInController.storyboard; sourceTree = "<group>"; };
 		5A6B23EB83709FA35E69D9E0 /* Pods_NewSwiftPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewSwiftPortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A893FC8241A8AF60088467B /* NewSwiftPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSwiftPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A893FCB241A8AF60088467B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,8 +65,7 @@
 		5A893FED241A8CFB0088467B /* Hypotenuse_1000.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Hypotenuse_1000.gif; sourceTree = "<group>"; };
 		5A893FFC241A8F1B0088467B /* SquareLabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareLabController.swift; sourceTree = "<group>"; };
 		5A893FFE241A90640088467B /* SquareLab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SquareLab.storyboard; sourceTree = "<group>"; };
-		5A894000241A921C0088467B /* OutputsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputsController.swift; sourceTree = "<group>"; };
-		5A894002241A94620088467B /* TimeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeController.swift; sourceTree = "<group>"; };
+		5A8940062422D8A80088467B /* CalcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcController.swift; sourceTree = "<group>"; };
 		94A91077A1D2F9AF703B6C85 /* Pods-NewSwiftPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewSwiftPortfolio.debug.xcconfig"; path = "Target Support Files/Pods-NewSwiftPortfolio/Pods-NewSwiftPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
 		959C8C9071B1E9F69890CCB3 /* Pods-NewSwiftPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewSwiftPortfolio.release.xcconfig"; path = "Target Support Files/Pods-NewSwiftPortfolio/Pods-NewSwiftPortfolio.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5F27E92450C363000B64BC /* CoreData.framework in Frameworks */,
 				EDADCBA2A5ABA9F56F369C12 /* Pods_NewSwiftPortfolio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +90,13 @@
 				959C8C9071B1E9F69890CCB3 /* Pods-NewSwiftPortfolio.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A6C90DA242A7188008F8EFF /* Control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Control;
 			sourceTree = "<group>";
 		};
 		5A893FBF241A8AF60088467B = {
@@ -117,11 +131,11 @@
 		5A893FCA241A8AF60088467B /* NewSwiftPortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				5A893FF9241A8EBD0088467B /* View Controllers */,
 				5A893FFA241A8ECE0088467B /* Models */,
+				5A893FF9241A8EBD0088467B /* View Controllers */,
+				5A6C90DA242A7188008F8EFF /* Control */,
 				5A893FFB241A8ED30088467B /* Views */,
-				5A893FD4241A8AF70088467B /* Assets.xcassets */,
-				5A893FD9241A8AF70088467B /* Info.plist */,
+				5ABAC641243F4AC0007019F7 /* Data */,
 			);
 			path = NewSwiftPortfolio;
 			sourceTree = "<group>";
@@ -132,8 +146,8 @@
 				5A893FCF241A8AF60088467B /* ViewController.swift */,
 				5A893FDF241A8C400088467B /* PythagController.swift */,
 				5A893FFC241A8F1B0088467B /* SquareLabController.swift */,
-				5A894000241A921C0088467B /* OutputsController.swift */,
-				5A894002241A94620088467B /* TimeController.swift */,
+				5A8940062422D8A80088467B /* CalcController.swift */,
+				5A5F27E624504664000B64BC /* LogInController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -154,13 +168,25 @@
 				5A893FD1241A8AF60088467B /* Main.storyboard */,
 				5A893FE1241A8C660088467B /* Pythag.storyboard */,
 				5A893FFE241A90640088467B /* SquareLab.storyboard */,
+				5A5F27EF2452E4B9000B64BC /* LogInController.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5ABAC641243F4AC0007019F7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5A893FD4241A8AF70088467B /* Assets.xcassets */,
+				5A893FD9241A8AF70088467B /* Info.plist */,
+				5A5F27EA2450C3A3000B64BC /* CoreData.xcdatamodeld */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		EEE67A013912399809A18E4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A5F27E82450C363000B64BC /* CoreData.framework */,
 				5A6B23EB83709FA35E69D9E0 /* Pods_NewSwiftPortfolio.framework */,
 			);
 			name = Frameworks;
@@ -241,6 +267,7 @@
 				5A893FF1241A8CFB0088467B /* 665398_box_512x512.png in Resources */,
 				5A893FF7241A8CFB0088467B /* images.jpg in Resources */,
 				5A893FD5241A8AF70088467B /* Assets.xcassets in Resources */,
+				5A5F27F02452E4B9000B64BC /* LogInController.storyboard in Resources */,
 				5A893FD3241A8AF60088467B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,12 +321,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5F27EC2450C3A3000B64BC /* CoreData.xcdatamodeld in Sources */,
 				5A893FFD241A8F1B0088467B /* SquareLabController.swift in Sources */,
-				5A894001241A921C0088467B /* OutputsController.swift in Sources */,
-				5A894003241A94620088467B /* TimeController.swift in Sources */,
 				5A893FE0241A8C400088467B /* PythagController.swift in Sources */,
 				5A893FD0241A8AF60088467B /* ViewController.swift in Sources */,
 				5A893FCC241A8AF60088467B /* AppDelegate.swift in Sources */,
+				5A8940072422D8A80088467B /* CalcController.swift in Sources */,
+				5A5F27E724504664000B64BC /* LogInController.swift in Sources */,
 				5A893FCE241A8AF60088467B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +526,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A5F27EA2450C3A3000B64BC /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A5F27EB2450C3A3000B64BC /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 5A5F27EB2450C3A3000B64BC /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5A893FC0241A8AF60088467B /* Project object */;
 }
